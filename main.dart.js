@@ -23927,14 +23927,14 @@ abA:function abA(){},
 vX:function vX(a){this.a=a},
 w5:function w5(a){this.a=a},
 aeJ:function aeJ(){},
-aR7(){var s,r,q,p,o,n,m,l,k,j="https://taxi.lideruz.uz",i=null,h="query",g=t.N,f=t.z,e=A.x(g,f)
+aR7(){var s,r,q,p,o,n,m,l,k,j="https://taxi.easytaxi.uz",i=null,h="query",g=t.N,f=t.z,e=A.x(g,f)
 e.m(0,"autoConnect",!1)
 e.m(0,"transports",A.b(["websocket"],t.s))
 s=A.mh(j)
 r=s.geh()+"://"+s.ghR(s)+":"+s.gmn(s)
 q=s.geq(s)
 p=$.axA.V(0,r)&&$.axA.h(0,r).c.V(0,q)
-if(J.d(e.h(0,"forceNew"),!0)||J.d(e.h(0,"force new connection"),!0)||!1===e.h(0,"multiplex")||p){$.aLl().aY(B.p,"ignoring socket cache for https://taxi.lideruz.uz",i,i)
+if(J.d(e.h(0,"forceNew"),!0)||J.d(e.h(0,"force new connection"),!0)||!1===e.h(0,"multiplex")||p){$.aLl().aY(B.p,"ignoring socket cache for https://taxi.easytaxi.uz",i,i)
 o=A.aEM(e,j)}else{o=$.axA.h(0,r)
 if(o==null){o=A.aEM(e,j)
 $.axA.m(0,r,o)}}if(s.gkf(s).length!==0&&e.h(0,h)==null)e.m(0,h,s.gkf(s))
@@ -84151,7 +84151,7 @@ var $async$nT=A.M(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:j=A.W(["scope",""+c,"longitude",B.d.j(a.b),"latitude",B.d.j(a.a),"tariff_id",B.e.j(b)],t.N,t.z)
 p=4
 s=7
-return A.S(n.a.mo(A.iP("https","lideruz.uz","/api/operators/driver-location",j)),$async$nT)
+return A.S(n.a.mo(A.iP("https","easytaxi.uz","/api/operators/driver-location",j)),$async$nT)
 case 7:m=e
 if(m.b===200){l=m
 l=A.aO2(B.A.hL(0,A.jI(A.jH(l.e).c.a.h(0,"charset")).c5(0,l.w),null))
@@ -84191,7 +84191,7 @@ J.cC(m,"finish_longitude",B.d.j(a3.b))}if(a5!=null)J.cC(m,"payment",B.e.j(a5))
 if(a2!=null)J.cC(m,"distance",B.d.j(a2))
 p=4
 s=7
-return A.S(n.a.mo(A.iP("https","lideruz.uz","/api/operators/create-order",m)),$async$yp)
+return A.S(n.a.mo(A.iP("https","easytaxi.uz","/api/operators/create-order",m)),$async$yp)
 case 7:l=a7
 h=l
 h=B.A.hL(0,A.jI(A.jH(h.e).c.a.h(0,"charset")).c5(0,h.w),null)
@@ -84224,7 +84224,7 @@ Wt(a){var s=0,r=A.Q(t.AU),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e
 var $async$vg=A.M(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.S(n.a.le(0,A.iP("https","lideruz.uz","/api/admin/partners/"+a,null)),$async$vg)
+return A.S(n.a.le(0,A.iP("https","easytaxi.uz","/api/admin/partners/"+a,null)),$async$vg)
 case 7:m=c
 l=m
 l=J.au(J.au(B.A.hL(0,A.jI(A.jH(l.e).c.a.h(0,"charset")).c5(0,l.w),null),"data"),"partner")
@@ -84261,7 +84261,7 @@ vl(){var s=0,r=A.Q(t.e9),q,p=2,o,n=this,m,l,k,j,i,h
 var $async$vl=A.M(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.S(n.a.le(0,A.iP("https","lideruz.uz","api/tariffs",null)),$async$vl)
+return A.S(n.a.le(0,A.iP("https","easytaxi.uz","api/tariffs",null)),$async$vl)
 case 7:m=b
 j=m
 l=B.A.hL(0,A.jI(A.jH(j.e).c.a.h(0,"charset")).c5(0,j.w),null)
@@ -84294,7 +84294,7 @@ s=q}while(true)switch(s){case 0:m=t.N
 l=A.W(["status","-1"],m,m)
 q=3
 s=6
-return A.S(o.a.uM(0,A.iP("https","lideruz.uz","/api/operators/taxi-order/"+a,l)),$async$ph)
+return A.S(o.a.uM(0,A.iP("https","easytaxi.uz","/api/operators/taxi-order/"+a,l)),$async$ph)
 case 6:q=1
 s=5
 break
@@ -84312,7 +84312,7 @@ age(a,b){var s=0,r=A.Q(t.H),q=1,p,o=this,n,m
 var $async$y8=A.M(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:q=3
 s=6
-return A.S(o.a.mo(A.iP("https","lideruz.uz","/api/partners/"+a+"/change-order-status",A.W(["status",B.e.j(b)],t.N,t.z))),$async$y8)
+return A.S(o.a.mo(A.iP("https","easytaxi.uz","/api/partners/"+a+"/change-order-status",A.W(["status",B.e.j(b)],t.N,t.z))),$async$y8)
 case 6:q=1
 s=5
 break
@@ -84335,7 +84335,7 @@ h=t.N
 m=A.W(["address",f],h,h)
 p=4
 s=7
-return A.S(n.a.le(0,A.iP("https","lideruz.uz","/api/admin/drivers",m)),$async$vf)
+return A.S(n.a.le(0,A.iP("https","easytaxi.uz","/api/admin/drivers",m)),$async$vf)
 case 7:l=b
 f=l
 k=A.aO1(B.A.hL(0,A.jI(A.jH(f.e).c.a.h(0,"charset")).c5(0,f.w),null))
@@ -84368,7 +84368,7 @@ ui(a,b){return this.alT(a,b)},
 alT(a,b){var s=0,r=A.Q(t.DF),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e,d,c
 var $async$ui=A.M(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:e=t.N
-d=A.iP("https","lideruz.uz","/api/login",A.W(["username",a,"password",b,"role","2"],e,e))
+d=A.iP("https","easytaxi.uz","/api/login",A.W(["username",a,"password",b,"role","2"],e,e))
 p=4
 s=7
 return A.S(n.a.mo(d),$async$ui)
@@ -84408,7 +84408,7 @@ vk(){var s=0,r=A.Q(t._b),q,p=2,o,n=this,m,l,k,j
 var $async$vk=A.M(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.S(n.a.le(0,A.iP("https","lideruz.uz","/api/districts",null)),$async$vk)
+return A.S(n.a.le(0,A.iP("https","easytaxi.uz","/api/districts",null)),$async$vk)
 case 7:m=b
 l=m
 l=J.dk(t.j.a(J.au(B.A.hL(0,A.jI(A.jH(l.e).c.a.h(0,"charset")).c5(0,l.w),null),"data")),new A.abA(),t.XS).dv(0)
@@ -84448,7 +84448,7 @@ s=p}while(true)switch(s){case 0:k=t.N
 j=A.W(["status",B.e.j(a)],k,k)
 p=4
 s=7
-return A.S(A.aEq(A.b([new A.AF($.cq().$1$0(t.T))],t.hA)).le(0,A.iP("https","lideruz.uz","/api/operators/get-delivery-orders",j)),$async$vd)
+return A.S(A.aEq(A.b([new A.AF($.cq().$1$0(t.T))],t.hA)).le(0,A.iP("https","easytaxi.uz","/api/operators/get-delivery-orders",j)),$async$vd)
 case 7:n=c
 k=n
 k=A.aNA(B.A.c5(0,A.jI(A.jH(k.e).c.a.h(0,"charset")).c5(0,k.w)))
@@ -84480,7 +84480,7 @@ s=p}while(true)switch(s){case 0:j=t.N
 i=A.W(["status",B.e.j(a)],j,j)
 p=4
 s=7
-return A.S(n.a.le(0,A.iP("https","lideruz.uz","/api/operators/get-taxi-orders",i)),$async$qz)
+return A.S(n.a.le(0,A.iP("https","easytaxi.uz","/api/operators/get-taxi-orders",i)),$async$qz)
 case 7:m=c
 j=m
 j=A.aFc(B.A.c5(0,A.jI(A.jH(j.e).c.a.h(0,"charset")).c5(0,j.w)))
@@ -84514,7 +84514,7 @@ i=A.W(["district_id",j==null?null:B.e.j(j.a)],t.N,t.Q)
 J.cC(i,"date",""+A.wa(a)+"-"+A.CA(a)+"-"+A.Cz(a))
 p=4
 s=7
-return A.S(n.a.le(0,A.iP("https","lideruz.uz","/api/get-all-orders",i)),$async$v9)
+return A.S(n.a.le(0,A.iP("https","easytaxi.uz","/api/get-all-orders",i)),$async$v9)
 case 7:m=c
 j=m
 j=A.aFc(B.A.c5(0,A.jI(A.jH(j.e).c.a.h(0,"charset")).c5(0,j.w)))
@@ -84545,7 +84545,7 @@ var $async$vi=A.M(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.S(n.a.mt(0,A.iP("https","lideruz.uz","/api/admin/points",null),A.W(["Authorization","Bearer "+A.f(A.ba(J.au($.cq().$1$0(t.T).a.a,"operator_token_key")))],k,k)),$async$vi)
+return A.S(n.a.mt(0,A.iP("https","easytaxi.uz","/api/admin/points",null),A.W(["Authorization","Bearer "+A.f(A.ba(J.au($.cq().$1$0(t.T).a.a,"operator_token_key")))],k,k)),$async$vi)
 case 7:m=b
 k=m
 l=B.A.hL(0,A.jI(A.jH(k.e).c.a.h(0,"charset")).c5(0,k.w),null)
